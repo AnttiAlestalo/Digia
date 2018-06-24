@@ -1,0 +1,77 @@
+.cssTable {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+.cssTable th, .cssTable td {
+    padding: 4px 6px 4px 4px;
+    border-bottom: solid 1px #ededed;
+}
+.cssTable th {
+    background-color: #fff;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.cssTable td {
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.cssTable caption {
+    text-align: left;
+    font-size: 24px;
+    padding: 20px 0 20px 0;
+    color: #757575;
+}
+
+.cssFilterRow {
+    border-bottom: solid 10px #f0f0f0;
+}
+.cssFilterRow th {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background-color: #fff;
+    cursor: default;
+}
+
+.cssFilterRow input[name="fFilterName"] {
+    width: 190px;
+}
+.cssFilterRow input[name="fFilterEmail"] {
+    width: 240px;
+}
+.cssFilterRow input[name="fFilterPhone"] {
+    width: 160px;
+}
+
+#idParticipantsTable tr {cursor: pointer}
+#idParticipantsTable thead tr {height: 48px; font-size: 14px}
+#idParticipantsTable tbody tr {
+    height: 72px;
+    font-size: 16px;
+    background-color: #fff
+}
+
+#idParticipantsTable {width: 912px}
+#idParticipantsTable th:nth-child(1), #idParticipantsTable td:nth-child(1) {width: 220px; padding-left: 24px}
+#idParticipantsTable th:nth-child(2), #idParticipantsTable td:nth-child(2) {width: 270px}
+#idParticipantsTable th:nth-child(3), #idParticipantsTable td:nth-child(3) {width: 210px}
+#idParticipantsTable th:nth-child(4), #idParticipantsTable td:nth-child(4) {width: 142px; text-align: right; padding-right: 16px}
+
+#idParticipantsTable th {
+    line-height: 16px;
+    color: #757575
+}
+#idParticipantsTable tbody .fa {
+    font-size: 24px;
+    color: #757575;
+}
+#idParticipantsTable tbody .fa-trash {
+    margin-left: 40px;
+    margin-right: 15px
+}
+
+#idParticipantsTable input {
+    font-size: 16px;
+}

@@ -1,0 +1,96 @@
+#idAppHeader {
+    background: #aeb5bd;
+    height: 96px;
+}
+
+#idAppHeader div {
+    padding: 32px 0 0 32px;
+    position: relative;
+}
+
+#idAppHeader img {
+    width: 32px;
+    height: 32px;
+}
+
+#idAppHeader span {
+    position: absolute;
+    left: 96px;
+    margin: 0;
+    font-size: 24px;
+    font-weight: normal;
+    padding: 2px 0;
+    color: white;
+}
+
+#idAppBody1 {
+    height: auto;
+    position: absolute;
+    top: 96px;
+    bottom: 0;
+    width: 100%
+}
+
+#idAppBody2 {
+    background: #fff;
+    height: 100%;
+    padding: 0;
+    overflow-y: scroll;
+    overflow-x: auto;
+}
+
+#idAppBody3 {
+    background: #f0f0f0;
+    padding: 15px 32px;
+}
+
+.cssFieldText, .cssFieldInt {
+    background-color: #fafafa;
+    border: solid 1px #ededed;
+    padding: 0 8px;
+    outline: none;
+    height: 38px;
+}
+
+.cssFieldInt {
+    width: 40px !important;
+    text-align: right;
+}
+
+.cssButDef, .cssButOk, .cssButWarn, .cssButDanger {
+    color: #505050;
+    font-weight: bold;
+    padding: 0 20px;
+    height: 40px;
+}
+
+.cssButDef {
+    background-color: #ebebeb;
+    border: solid 1px #ebebeb;
+}
+
+.cssButOk {
+    background-color: #07f;
+    color: #fff;
+    border: solid 1px #398439;
+}
+
+.cssButWarn {
+    background-color: #ebebeb;
+    border: 0;
+    color: #07f;
+}
+
+.cssButDanger {
+    background-color: #d9534f;
+    border: solid 1px #d43f3a;
+}
+
+.cssInvalid {
+    border: solid 1px #d43f3a;
+    background-color: rgba(236, 88, 64, 0.1);
+}
+
+button {
+    cursor: pointer;
+}

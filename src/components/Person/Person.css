@@ -1,0 +1,22 @@
+
+#idFormPerson span {
+    float: right;
+}
+
+#idFormPerson input {
+    margin-right: 22px;
+}
+
+#idFormPerson input[name="fName"] {
+    width: 189px;
+}
+#idFormPerson input[name="fEmail"] {
+    width: 240px;
+}
+#idFormPerson input[name="fPhone"] {
+    width: 160px;
+}
+
+#idFormPerson .cssButSave {
+    margin-left: 10px;
+}
